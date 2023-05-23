@@ -24,8 +24,15 @@ public class User {
         return userName;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public boolean setUserName(String userName, Netflix netflix) {
+     for(int i =0; i<netflix.userList.size(); i++){
+         if(netflix.userList.get(i).getUserName() == userName){
+             return false;
+         }
+         
+         this.userName = userName;
+     }   
+        return true;
 
     }
 

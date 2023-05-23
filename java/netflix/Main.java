@@ -75,6 +75,10 @@ public class Main {
         anu.addMovieToWatchList(stars);
         anu.addMovieToWatchList(storm);
         System.out.println(anu.userWatchList);
+        System.out.println(netflix.userList);
+        anu.setUserName("manu", netflix);
+
+        System.out.println(anu.getUserName());
 
       
     }

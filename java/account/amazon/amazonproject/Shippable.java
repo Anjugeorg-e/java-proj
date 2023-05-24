@@ -1,0 +1,5 @@
+package amazonproject;
+
+interface Shippable {
+    
+}

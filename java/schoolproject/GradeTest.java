@@ -107,7 +107,6 @@ public class GradeTest {
     public void testSetGradeNameMoreThanThree() {
         Grade grade1 = new Grade(1, "Maya");
         grade1.setGradeName(4);
-
         assertEquals(1, grade1.getGradeName());
 
     }
